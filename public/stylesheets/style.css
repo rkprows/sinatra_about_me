@@ -1,0 +1,352 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+body {
+	background: url(http://farm7.staticflickr.com/6157/6202323879_24c7f565f0.jpg);
+	background-repeat: repeat-x;
+  color: #505050;
+  font: 300 16px/22px "Poppins", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.name {
+  margin: 10px 0 0 30px;
+  text-transform: uppercase;
+}
+
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col-1-3 {
+	width: 33.33%;
+	display: inline-block;
+	vertical-align: top;
+}
+.col-1-3 h5 {
+	text-decoration: underline;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.container,
+.grid {
+	margin: 0 auto;
+	width: 960px;
+}
+.container {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+  ========================================
+  Typography
+  ========================================
+*/
+
+h1, h3, h4, h5, p {
+  margin-bottom: 22px;
+}
+
+h2, h3, h4 {
+	color: #330033;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 44px
+	color: #648880;
+	text-align: center;
+	margin: auto;
+	/*margin-right: auto;*/
+	width: 100%;
+}
+h2 {
+	font-size: 24px;
+	line-height: 44px;
+	text-align: center;
+}
+h3 {
+	font-size: 21px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h4 {
+	font-size: 18px;
+	margin-left: auto;
+	margin-right: auto;
+}
+h5 {
+  color: #006699;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+strong {
+	font-weight: 400;
+}
+cite, em {
+	font-style: italic;
+}
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+	color: #006699;
+	text-decoration: none;
+}
+p a {
+	border-bottom: 1px solid #990000;
+}
+
+
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+
+
+
+.logo {
+	float: center;
+	font-size: 38px;
+	line-height: 44px;
+	padding: 0px 0px 30px 0px;
+	text-align: center;
+}
+
+.container img {
+	display:inline-block;
+	margin: 0 20px auto auto;
+	vertical-align: top;
+	border: 3px solid white;
+	padding: 7px;
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+}
+
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primary-footer {
+	color: #006699;
+	font-size: 14px;
+	padding-bottom: 44px;
+	padding-top: 44px;
+	background: url(http://farm7.staticflickr.com/6157/6202323879_24c7f565f0.jpg);
+	width: 100%;
+}
+/*
+  ========================================
+  Navigation
+  ========================================
+*/
+.nav {
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 75px;
+
+}	
+/*
+  ========================================
+  Home
+  ========================================
+*/
+
+.hero {
+	line-height: 44px;
+	padding: 0px 80px 66px 20px;
+	text-align: center;
+	color: #999900;
+	margin-top: 40px;
+}
+.hero h1 {
+	font-size: 42px;
+	color: #330033;
+}
+.hero p {
+	font-size: 24px;
+}
+/*
+  ========================================
+  Contact Me
+  ========================================
+*/
+
+f*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 240px;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+input {
+  border-radius: 5px;
+  font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.contact-info {
+  padding: 20px 20px 0 20px;
+}
+.contact-info label {
+  color: #395870;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.contact-info input {
+  background: #fff;
+  border: 1px solid #c6c7cc;
+   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+  color: #636466;
+  padding: 6px;
+  margin-top: 6px;
+  width: 100%;
+}
+.action {
+  background: #f0f0f2;
+  border-top: 1px solid #c6c7cc;
+  padding: 20px;
+}
+.action .btn {
+  background: linear-gradient(#999900, #293f50);
+  border: 0;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  float: center;
+  padding: 8px 16px;
+  margin: auto;
+}
+.action label {
+  color: #7c7c80;
+  font-size: 12px;
+  float: left;
+  margin: 10px 0 0 20px;
+}
+.form {
+	margin: auto auto 200px 500px;
+}
+
+/*
+  ========================================
+  Error
+  ========================================
+*/
+.error {
+	padding: 450px;
+	text-align: center;
+}
+
+/*
+  ========================================
+  Resume
+  ========================================
+*/
+
+.resume {
+  text-align: center;
+  margin: 200px auto 200px auto;
+}
+.resume a {
+  text-decoration: underline;
+}
+
